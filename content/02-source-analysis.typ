@@ -374,7 +374,7 @@ if (OMPI_SUCCESS == ret) {
 
 假设系统选择了`basic`组件，则根据通信子的大小决定通信算法，譬如：
 
-#let code = ```typ
+#let code = ```c
 // 在basic组件模块启用时
 if (ompi_comm_size(comm) <= mca_coll_basic_crossover) {
     // 小规模通信子：使用线性算法
