@@ -2139,8 +2139,6 @@ ompi_coll_base_gather_intra_basic_linear(const void *sbuf, size_t scount,
 
 === Allgather
 
-=== Allgather
-
 `Allgather`的函数原型如下：
 
 ```c
