@@ -65,10 +65,10 @@
 // 第三部分：集合通信参数配置分析  
 #include "content/03-parameter-analysis.typ"
 
-// 第四部分：数据集构建与应用场景设计
+// 第四部分：建模与数据集构建
 #include "content/04-dataset-construction.typ"
 
-// 第五部分：机器学习建模与性能预测
+// 第五部分：机器学习与性能预测
 #include "content/05-ml-modeling.typ"
 
 // 第六部分：模型验证与检验

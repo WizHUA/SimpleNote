@@ -312,7 +312,7 @@ header: context {
   v(24pt, weak: true)
 
   // 将段落设置为两端对齐，并设置换行。
-  set par(justify: true, linebreaks: "optimized", first-line-indent:2em, leading: 0.8em)
+  set par(justify: true, linebreaks: "optimized", first-line-indent:(amount: 2em), leading: 0.8em)
 
   pagebreak()
 

@@ -1,7 +1,7 @@
 #import "../template.typ": *
 #import "@preview/cetz:0.3.0": canvas, draw
 
-= Open MPI集合通信算法源码分析
+= Open MPI集合通信算法源码分析 <chap02>
 
 基于#link("https://www.open-mpi.org/")[The Open MPI Project]。（#link("https://github.com/WizHUA/ompi")[仓库链接]）
 
@@ -111,7 +111,7 @@ int ompi_coll_base_bcast_intra_scatter_allgather_ring(BCAST_ARGS, uint32_t segsi
 
 \ #v(-16pt)
 
-通过上面的分析，结合官方文档#link("https://docs.open-mpi.org/en/v5.0.x/mca.html")[The Modular Component Architecture (MCA) — Open MPI 5.0.x documentation]，我们可以较好的理解Open MPI集合通信框架，并通过配置参数使用特定的算法实现来优化通信操作的性能。具体的参数配置分析见于#link(<chap4>)[章节4. 集合通信参数配置分析]。
+通过上面的分析，结合官方文档#link("https://docs.open-mpi.org/en/v5.0.x/mca.html")[The Modular Component Architecture (MCA) — Open MPI 5.0.x documentation]，我们可以较好的理解Open MPI集合通信框架，并通过配置参数使用特定的算法实现来优化通信操作的性能。具体的参数配置分析见于#link(<chap03>)[章节4. 集合通信参数配置分析]。
 
 == 集合通信操作示例
 
@@ -3185,7 +3185,7 @@ int ompi_coll_base_reduce_intra_basic_linear(const void *sbuf, void *rbuf, size_
 [二进制树归约算法（`ompi_coll_base_reduce_intra_binary`）\
 使用完全二叉树结构进行归约，通过调用通用算法框架实现。] )\ #v(-16pt)
 
-==== 总结
+==== 总结 <summary>
 
 基于上述对`MPI_Reduce`的算法的讨论，整理得如下表格：
 

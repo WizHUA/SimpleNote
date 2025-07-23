@@ -1,6 +1,6 @@
 #import "../template.typ": *
 
-= 集合通信参数配置分析 <chap4>
+= 集合通信参数配置分析 <chap03>
 
 #let add = [与后续实验环境保持一致]
 
